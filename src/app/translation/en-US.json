@@ -1,6 +1,6 @@
 {
-    "title": "Ethereum Lite Blockchain Explorer",
-    "description": "Client only, super light weight and entirely open source Ethereum blockchain explorer.",
+    "title": "Pi Blockchain Explorer",
+    "description": "Client only, super light weight and entirely open source Pi blockchain explorer.",
 
     "general.error.notFound": "404 - Not Found",
 
