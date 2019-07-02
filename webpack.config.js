@@ -77,8 +77,8 @@ function getConfig(isProduction) {
         new HtmlWebpackPlugin({
             inject: "body",
             hash: true,
-            title: translation["title"],
-            description: translation["description"],
+            title: "Pi Blockchain Explorer",
+            description: "An open source block explorer",
             template: path.join(sourcePublicRoot, "index.html"),
             baseUrl: process.env.APP_BASE_URL || "https://lite-explorer.aleth.io/"
         }),
