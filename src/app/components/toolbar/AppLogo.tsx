@@ -1,6 +1,6 @@
 import * as React from "react";
 import { IconButton } from "@alethio/ui/lib/control/IconButton";
-import { AlethioIcon } from "@alethio/ui/lib/icon/AlethioIcon";
+import { AppIcon } from "app/components/toolbar/AppIcon";
 
 export interface IToolbarLogoProps {
 
@@ -9,7 +9,7 @@ export interface IToolbarLogoProps {
 export class AppLogo extends React.Component<IToolbarLogoProps> {
     render() {
         return (
-            <IconButton Icon={AlethioIcon} color={theme => theme.colors.toolbarAlethioIconHover} />
+            <IconButton Icon={AppIcon} color={theme => theme.colors.toolbarAlethioIconHover} />
         );
     }
 }

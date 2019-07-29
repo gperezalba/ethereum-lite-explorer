@@ -5,17 +5,15 @@ WORKDIR /build
 COPY package.json package-lock.json ./
 RUN npm install
 
-RUN npm i -g @alethio/cms-plugin-tool
-
 COPY . .
 
 RUN npm run build --verbose
 
-RUN acp install \
-    @alethio/explorer-plugin-eth-common@2.0.0 \
-    @alethio/explorer-plugin-eth-lite@2.0.4 \
-    @alethio/explorer-plugin-eth-ibft2@1.0.1 \
-    @alethio/explorer-plugin-3box@1.0.1
+RUN mkdir /build/dist/plugins
+
+RUN ls -la /build/dist/plugins
+
+COPY plugins/ /build/dist/plugins/
 
 FROM nginx:stable-alpine
 

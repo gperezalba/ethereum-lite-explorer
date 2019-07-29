@@ -1,9 +1,14 @@
 [
     {
+        "country": "ve",
+        "locale": "es-VE",
+        "label": "Español (VE)",
+        "default": true
+    },
+    {
         "country": "us",
         "locale": "en-US",
-        "label": "English (US)",
-        "default": true
+        "label": "English (US)"
     },
     {
         "country": "cn",

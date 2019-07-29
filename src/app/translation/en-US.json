@@ -1,6 +1,6 @@
 {
-    "title": "Pi Blockchain Explorer",
-    "description": "Client only, super light weight and entirely open source Pi blockchain explorer.",
+    "title": "PI Block Explorer",
+    "description": " ",
 
     "general.error.notFound": "404 - Not Found",
 
@@ -9,7 +9,7 @@
 
     "general.loadingText": "Data is being loaded.<br />Please be patient, it won't be long now ;)",
 
-    "toolbar.alethio.label": "Alethio website",
+    "toolbar.alethio.label": " ",
     "toolbar.localization.label": "Select Language",
 
     "cookieBanner.label": "Cookie Policy",

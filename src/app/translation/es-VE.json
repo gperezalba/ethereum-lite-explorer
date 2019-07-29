@@ -1,0 +1,19 @@
+{
+    "title": "PI - Explorador de Bloques",
+    "description": " ",
+
+    "general.error.notFound": "404 - Página no encontrada",
+
+    "general.loading": "Cargando",
+    "general.error": "Ha ocurrido un error",
+
+    "general.loadingText": "Los datos se están cargando.<br />Por favor, ten paciencia, no tardará mucho. ;)",
+
+    "toolbar.alethio.label": " ",
+    "toolbar.localization.label": "Seleccione idioma",
+
+    "cookieBanner.label": "Política de Cookies",
+    "cookieBanner.text": "Al utilizar este sitio, usted acepta nuestro uso de cookies, que utilizamos para analizar nuestro tráfico de acuerdo con nuestra %sPolítica de Privacidad%s. También compartimos información sobre su uso con herramientas de terceros para su análisis.",
+    "cookieBanner.accept": "Aceptar",
+    "cookieBanner.moreInfo": "Más información"
+}
